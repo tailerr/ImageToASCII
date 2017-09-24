@@ -1,6 +1,8 @@
 # ImageToASCII
 
 This program needs three required parametrs and one optional:
+
+
             First is a path to the image you want to convert
                 supported formats:  BMP, GIF, EXIF, JPG, PNG и TIFF
             Second is a path where program will save output
@@ -10,6 +12,10 @@ This program needs three required parametrs and one optional:
             space to alphabet adds automatically
             
 EXAMPLE:
+```
 ConsoleApplication1.exe image.png result.txt 1 
+```
 or
-ConsoleApplication1.exe image.png result.txt 0,5 ,;#@
+```
+ConsoleApplication1.exe image.png result.txt 0,5 ,;#@ 
+```
